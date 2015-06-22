@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ControlAnimation.ControlAnimator">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ControlAnimation.ControlAnimator.DrawMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ControlAnimator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQIAAAAAEiAAAAAAAAQAIAAAAAABACABFAAAAAAAAAA=</HashCode>
+      <FileName>ControlAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlAnimation.WaitBox">
+    <Position X="5.25" Y="0.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAhAAUACACABAAgADABAACAAAAAAAACGAgAQCAAAA=</HashCode>
+      <FileName>WaitBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
