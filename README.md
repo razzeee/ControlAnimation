@@ -7,6 +7,6 @@ ControlAnimation for WinForms
 
 ###Usage
 
-## It's likely that you only need the dll that is created by the ControlAnimation class library project
+* It's likely that you only need the dll that is created by the ControlAnimation class library project
 * Just build the solution and reference the dll or the solution itself
 * Check the test application for examples on how to use the control itself
