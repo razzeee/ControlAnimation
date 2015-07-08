@@ -423,7 +423,7 @@ namespace ControlAnimation
 
 
                     control.Enabled = true;
-                    control.Refresh();
+                    control.Invalidate();
                 }
             }
         }
