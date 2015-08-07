@@ -210,21 +210,29 @@ namespace ControlAnimation
         /// <returns>Outer Circle Radius</returns>
         private static int GetOuterCircle(Size size)
         {
+            int result;
+
             if (size.Height > 50 && size.Width > 50)
             {
-                return 25;
+                result = 25;
             }
             else
             {
                 if (size.Height < size.Width)
                 {
-                    return (size.Height - 10) / 2;
+                    result = (size.Height - 10) / 2;
                 }
                 else
                 {
-                    return (size.Width - 10) / 2;
+                    result = (size.Width - 10) / 2;
                 }
             }
+
+            //Results below 1 will cause "Parameter is not valid" errors
+            if (result <= 0)
+                result = 1;
+
+            return result;
         }
 
         /// <summary>
